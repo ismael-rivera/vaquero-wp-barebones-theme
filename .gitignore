@@ -4,6 +4,7 @@ node_modules/
 .sass-cache/
 config.rb
 Gruntfile.js
+README.txt
 
 # Packages #
 #######################
