@@ -10,6 +10,7 @@
  */
 ?>
 <?php Starkers_Utilities::get_template_parts( array( 'parts/global/html-header', 'parts/global/header' ) ); ?>
+<?php Section_Builder::sec_Begins(); ?>
 
 <?php if ( have_posts() ): ?>
 <h2>Search Results for '<?php echo get_search_query(); ?>'</h2>	
@@ -28,4 +29,5 @@
 <h2>No results found for '<?php echo get_search_query(); ?>'</h2>
 <?php endif; ?>
 
+<?php Section_Builder::sec_Ends(); ?>
 <?php Starkers_Utilities::get_template_parts( array( 'parts/global/footer','parts/global/html-footer' ) ); ?>
