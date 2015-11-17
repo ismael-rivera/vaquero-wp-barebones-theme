@@ -1,0 +1,58 @@
+/*
+@include screen(1201px, 1360px) {
+
+}
+@include max-screen(1200px) {
+	
+}
+@include screen(1024px, 1199px) {
+	
+}
+@include screen(960px, 1023px) {
+	
+}
+@include screen(800px, 959px) {
+	
+}
+@include screen(600px, 799px) {
+	
+}
+@include screen(480px, 599px) {
+	
+}
+@include max-screen(480px) {
+	
+}
+@include screen(0px, 599px) {
+	
+}
+*/
+
+/*--------------------------------------------------------------------
+
+ * Required dependencies and also also some media-queries
+ * mixins, which is nice too.
+
+--------------------------------------------------------------------*/
+
+@import "media-queries";
+@import "compass/css3/border-radius";
+@import "compass/css3";
+
+
+/*-------------------------------------------------------------------- 
+ * This variable will point on your css to your 
+ * image folder. If you change your img folder, 
+ * be sure to change the value of this variable. 
+--------------------------------------------------------------------*/
+
+$img-dir:"../img";
+
+/*--------------------------------------------------------------------
+
+
+
+
+
+
+
