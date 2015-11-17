@@ -9,8 +9,8 @@
  * @since 		Starkers 4.0
  */
 ?>
-<?php Starkers_Utilities::get_template_parts( array( 'parts/shared/html-header', 'parts/shared/header' ) ); ?>
-
+<?php Starkers_Utilities::get_template_parts( array( 'parts/global/html-header', 'parts/global/header' ) ); ?>
+<?php Section_Builder::sec_Begins(); ?> 
 <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 
 <article>
@@ -29,5 +29,5 @@
 
 </article>
 <?php endwhile; ?>
-
-<?php Starkers_Utilities::get_template_parts( array( 'parts/shared/footer','parts/shared/html-footer' ) ); ?>
+<?php Section_Builder::sec_Ends(); ?> 
+<?php Starkers_Utilities::get_template_parts( array( 'parts/global/footer','parts/global/html-footer' ) ); ?>

@@ -1,4 +1,13 @@
 /*
+--------------------------------------------------------------------
+
+ * Required dependencies and also also some media-queries
+ * mixins, which is nice too.
+
+--------------------------------------------------------------------
+*/
+// Examples: How To Use
+/*
 @include screen(1201px, 1360px) {
 
 }
@@ -28,27 +37,21 @@
 }
 */
 
-/*--------------------------------------------------------------------
-
- * Required dependencies and also also some media-queries
- * mixins, which is nice too.
-
---------------------------------------------------------------------*/
-
 @import "media-queries";
 @import "compass/css3/border-radius";
 @import "compass/css3";
 
-
-/*-------------------------------------------------------------------- 
+/*
+-------------------------------------------------------------------- 
  * This variable will point on your css to your 
  * image folder. If you change your img folder, 
  * be sure to change the value of this variable. 
---------------------------------------------------------------------*/
+--------------------------------------------------------------------
+*/
 
 $img-dir:"../img";
 
-/*--------------------------------------------------------------------
+
 
 
 

@@ -1,0 +1,127 @@
+/*
+--------------------------------------------------------------------
+
+ * Required dependencies and also also some media-queries
+ * mixins, which is nice too.
+
+--------------------------------------------------------------------
+*/
+/*
+@include screen(1201px, 1360px) {
+
+}
+@include max-screen(1200px) {
+	
+}
+@include screen(1024px, 1199px) {
+	
+}
+@include screen(960px, 1023px) {
+	
+}
+@include screen(800px, 959px) {
+	
+}
+@include screen(600px, 799px) {
+	
+}
+@include screen(480px, 599px) {
+	
+}
+@include max-screen(480px) {
+	
+}
+@include screen(0px, 599px) {
+	
+}
+*/
+/*
+-------------------------------------------------------------------- 
+ * This variable will point on your css to your 
+ * image folder. If you change your img folder, 
+ * be sure to change the value of this variable. 
+--------------------------------------------------------------------
+*/
+/*
+--------------------------------------------------------------------
+
+ WRAPPER AND GRID:
+ Here you should be able to modify how the grid 
+ will look and behave
+
+--------------------------------------------------------------------
+*/
+/* line 13, ../sass/grid.scss */
+.wrapper, .wrapper-tbl {
+  margin: 0%;
+  padding: 0%;
+  clear: both;
+  width: 100%;
+  position: relative;
+  overflow: visible;
+  border: 1px solid #f00;
+}
+
+/* line 23, ../sass/grid.scss */
+.wrapper-tbl {
+  display: table;
+}
+
+/* line 28, ../sass/grid.scss */
+.grid {
+  padding: 0px 50px 0px 50px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (min-width: 1301px) and (max-width: 1360px) {
+  /* line 28, ../sass/grid.scss */
+  .grid {
+    width: 1100px;
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 1300px) {
+  /* line 28, ../sass/grid.scss */
+  .grid {
+    width: 1100px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  /* line 28, ../sass/grid.scss */
+  .grid {
+    max-width: 1020px;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1199px) {
+  /* line 28, ../sass/grid.scss */
+  .grid {
+    max-width: 960px;
+  }
+}
+@media screen and (min-width: 960px) and (max-width: 1023px) {
+  /* line 28, ../sass/grid.scss */
+  .grid {
+    width: 100%;
+    max-width: 860px;
+  }
+}
+@media screen and (min-width: 800px) and (max-width: 959px) {
+  /* line 28, ../sass/grid.scss */
+  .grid {
+    max-width: 760px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 799px) {
+  /* line 28, ../sass/grid.scss */
+  .grid {
+    width: 100%;
+    padding: 0px 20px 0px 20px;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 599px) {
+  /* line 28, ../sass/grid.scss */
+  .grid {
+    width: 100%;
+    width: 420px;
+  }
+}
